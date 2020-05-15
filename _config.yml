@@ -1,0 +1,11 @@
+name: Vocabulary
+title: An API-First E-Commerce Reference Implementation
+description: This is a fictional e-commerce company that provides an API-first reference implementation.
+url: http://union.fashion
+
+# Build settings
+markdown: kramdown
+
+paginate: 12
+paginate_path: "/page/:num"
+permalink: /:year/:month/:day/:title/
