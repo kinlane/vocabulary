@@ -255,6 +255,10 @@
   feature: images/api.png
   icon: images/api.png
   ideas: images/api.png
+- word: Merge
+  feature: images/api.png
+  icon: images/api.png
+  ideas: images/api.png
 - word: Mock Server
   feature: images/mock-server.png
   icon: images/api.png
