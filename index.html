@@ -3,8 +3,7 @@ layout: default
 ---
 
 <h1>Vocabulary</h1>
-<p>Having common images when talking about the API lifecycle -- the Postman edition.</p>
-data: {{ site.data.vocabulary }}
+<p>Having common images when talking about the API lifecycle -- the Postman edition. If API icon shows for anything other than API, it is because we are lacking an image.</p>
 <table width="100%" class="table">
 <tr>
 	<td><strong>Word / Phrase</strong></td>
@@ -12,6 +11,11 @@ data: {{ site.data.vocabulary }}
 	<td><strong>Icons</strong></td>
 	<td><strong>Ideas</strong></td>
 </tr>
-{% for vocab in site.data %}
-	HELLO
+{% for vocab in site.data.vocabulary %}
+	<tr>
+		<td><h1>{{ vocab.word }}</h1></td>
+		<td><img src="{{ vocab.feature }}" width="250"></td>
+		<td><img src="{{ vocab.icon }}" width="250"></td>
+		<td><img src="{{ vocab.ideas }}" width="250"></td>
+	</tr>
 {% endfor %}
